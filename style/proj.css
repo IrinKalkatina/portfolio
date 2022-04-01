@@ -1,0 +1,105 @@
+.caption-wrap {
+    padding: 3vh 0 2vh 0;
+}
+
+.as-color {
+    color: rgb(255, 90, 0)
+}
+
+.lm-color {
+    color: rgb(142, 255, 0);
+}
+
+.caption-project-name {
+    width: fit-content; 
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 3.5vh;
+    padding: 0.7vh;
+    border: 5px solid white;
+    border-radius: 0 20px 20px 20px;
+}
+
+.caption-main-purpose {
+    font-weight: 700;
+    font-size: 2vh;
+    margin: 1vh 0 1vh 0;
+}
+
+.caption-add-purpose {
+    margin: 0.5vh 0 0.5vh 0;
+}
+
+.about-firm-wrap {
+    padding: 2vh 0 2vh 0;
+}
+
+.text-margin {
+    margin: 1.5vh 0 1.5vh 0;
+}
+
+.highlighted-text {
+    font-weight: 400;
+}
+
+.about-project-item {
+    width: 48%;
+}
+
+.icon-table-item {
+    border-radius: 20px;
+    background-color: rgb(26, 26, 26);
+    margin: 0.5%;
+    width: calc(100%/4 - 2*0.5%);
+    aspect-ratio: 13 / 20;
+}
+
+.icon-table-image {
+    width: 50%;
+    margin: 25% 25% 25% 25%;
+    aspect-ratio: 1 / 1;
+}
+
+.icon-table-text {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    hyphens: manual;
+    margin: 5% 5% 10% 5%;
+}
+
+.icon-table-image-rounded {
+    border-radius: 5px;
+}
+
+#tools-and-workflow-wrap {
+    justify-content: space-between;
+}
+
+.icons-table-wrap {
+    width:47.5%
+}
+
+@media (max-width: 930px) {
+    #tools-and-workflow-wrap {
+        flex-direction: column;
+    }
+
+    .icons-table-wrap {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+}
+
+@media (max-width: 750px) {
+    .icon-table-item {
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 660px) {
+    .about-project-item {
+        width: 100%;
+    }
+}

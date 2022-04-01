@@ -1,0 +1,254 @@
+.main-caption-name {
+    margin-top: 2.5vh;
+}
+
+.main-caption-sunject {
+
+}
+
+.main-caption-profession {
+    margin-top: 1vh;
+    text-align: right;
+    margin-right: 0.75vmin;
+}
+
+.my-photo {
+    width: 40%;
+    margin: 3%;
+    object-fit: cover;
+    aspect-ratio: 8 / 7;
+}
+
+.main-caption-about-me {
+    margin-left: 3%;
+}
+
+.main-text-about-me {
+    font-size: 1.75vh;
+}
+
+.more-btn {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 0.7vmax;
+    margin: 2% 0 2% 0;
+    border-radius: 1.5vmax;
+    align-self: flex-end;
+    font-size: 1.5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.arrow {
+    display: flex;
+    border: solid black;
+    margin-left: 0.2vmax;
+    width: 0.7vmax;
+    height: 0.7vmax;
+    border-width: 0 0.2vmax 0.2vmax 0;
+    align-self: center;
+}
+
+.arrow-right {
+    transform:rotate(-45deg);
+}
+
+
+.navigation-bar-about-me {
+    display: flex;
+    align-self: flex-end;
+}
+
+
+.navigation-bar-left {
+    margin-right: 0.25vmax;
+    padding: 1vh;
+    border: 1px solid rgb(95, 95, 95);
+    font-size: 1.5vh;
+    border-top-left-radius: 0.7vmax;
+    border-bottom-left-radius: 0.7vmax;
+    background-color: rgb(55, 55, 55);
+    background-color: linear-gradient(rgb(57, 57, 57), rgb(45, 45, 45));
+    background: -moz-linear-gradient(rgb(57, 57, 57), rgb(45, 45, 45));
+    background: -webkit-linear-gradient(rgb(57, 57, 57), rgb(45, 45, 45));
+}
+
+
+.navigation-bar-right {
+    margin-left: 0.25vmax;
+    padding: 1vh;
+    border: 1px solid rgb(43, 43, 43);
+    font-size: 1.5vh;
+    border-top-right-radius: 0.7vmax;
+    border-bottom-right-radius: 0.7vmax;
+    background-color: rgb(28, 28, 28);
+    background-color: linear-gradient(rgb(24, 24, 24), rgb(28, 28, 28));
+    background: -moz-linear-gradient(rgb(24, 24, 24), rgb(28, 28, 28));
+    background: -webkit-linear-gradient(rgb(24, 24, 24), rgb(28, 28, 28));
+}
+
+.main-my-offerings-caption {
+    margin-bottom: 4vh;
+}
+
+.my-offerings-item-text {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+}
+
+.my-offerings-item-text-content {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-self: center;
+}
+
+.my-offerings-list-caption {
+    display: flex;
+    font-size: 1.75vh;
+    font-weight: 700;
+}
+
+.my-offerings-list-content {
+    padding-left: 5%;
+    margin: 0px;
+    font-size: 1.75vh;
+}
+
+.my-offerings-item-image {
+    width: 40%;
+    aspect-ratio: 15 / 9;
+    object-fit: cover;
+    border-radius: 1.5vmax;
+    transition: 300ms;
+}
+
+.my-projects-caption {
+    margin: 2vh 0 2vh 0;
+}
+
+.my-projects-description {
+    font-size: 1.75vh;
+    margin: 0.5vh 0 0.5vh 0;
+}
+
+.my-projects-list-item {
+    width: 47.5%;
+    margin: 2.5% 0% 2.5% 0%;
+    background-color: rgb(33, 33, 33);
+    border-radius: 1vmax;
+}
+
+.my-projects-list-item-image {
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1vmax;
+    border: 1px solid transparent;
+}
+
+.my-projects-list-caption {
+    align-self: center;
+    display: inline-block;
+    padding: 1.5vh;
+    font-size: 5vmin;
+    border-radius: 2vmin;
+    font-weight: 900;
+    box-shadow: 4px 4px 2px rgba(40, 40, 40, 30);
+}
+
+.my-projects-list-item-description {
+    margin: 3% 7% 3% 7%;
+}
+
+.lm-background {
+    background: url("../res/lm-bg.png") no-repeat;
+    background-size: 100% 100%; 
+}
+
+.lm-caption {
+    background-color: black;
+    color: rgb(142, 255, 0);
+}
+
+.my-projects-list-item:hover .lm-background {
+    border: 1px solid rgb(142, 255, 0);
+    transition: 100ms;
+    box-shadow: 0px 5px 3px rgb(142, 255, 0);
+}
+
+.as-background {
+    background: url("../res/as-bg.png") no-repeat;
+    background-size: 100% 100%;   
+}
+
+.as-caption {
+    background-color: black;
+    color: rgb(255, 90, 0);
+}
+
+.my-projects-list-item:hover .as-background {
+    border: 1px solid rgb(255, 90, 0);
+    transition: 100ms;
+    box-shadow: 0px 5px 3px rgb(255, 90, 0);
+}
+
+@media (max-width: 1400px) {
+    .info-block {
+        width: 75%;
+    }
+}
+
+@media (max-width: 1130px) {
+    .info-block {
+        width: 90%;
+    }
+}
+
+@media (max-width: 930px) {
+    .info-block {
+        width: 95%;
+    }
+
+    .my-photo {
+        width: 225px;
+        height: 196px; 
+    }
+
+    #main-my-projects-list-block {
+        flex-direction: column;
+    }
+
+    .my-projects-list-item {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .my-offerings-list-content {
+        font-size: 1.5vh;
+    }
+}
+
+@media (max-width: 700px) {
+    .my-photo {
+        width: 180px;
+        height: 157px; 
+    }
+
+    .my-offerings-item {
+        margin-top: 2vh 0 2vh 0;
+    }
+
+    .my-offerings-item-image {
+        aspect-ratio: 8 / 7;
+    }
+
+    .my-offerings-item-text-content {
+        width: 90%;
+    }
+}

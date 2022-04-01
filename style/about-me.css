@@ -1,0 +1,54 @@
+.am-caption-name {
+    margin-top: 3%;
+    color: rgb(253,143,59);
+}
+
+.am-virtues {
+    width: 45%;
+}
+
+.am-education-block {
+    width: calc(70% - 2.5%);
+    margin: 0;
+}
+
+.am-language-block {
+    width: calc(30% - 2.5%);
+    margin: 0;
+}
+
+.am-education-list-item {
+    margin: 1.5vh 0 1.5vh 0;
+}
+
+.am-language-list-item {
+    margin: 1vh 0 1vh 0;
+}
+
+.icon-table-item {
+    border-radius: 20px;
+    background-color: rgb(26, 26, 26);
+    margin: 0.5%;
+    width: calc(100%/8 - 2*0.5%);
+    aspect-ratio: 13 / 18;
+}
+
+.icon-table-image {
+    width: 50%;
+    margin: 25% 25% 25% 25%;
+    aspect-ratio: 1 / 1;
+}
+
+.icon-table-text {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    hyphens: manual;
+    margin: 5% 5% 10% 5%;
+}
+
+@media (max-width: 1400px) {
+    .icon-table-item {
+        aspect-ratio: 13 / 20;
+    }
+}
