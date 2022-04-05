@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Ribeye Marrow;
-    src: url('../fonts/RibeyeMarrow-Regular.ttf');
+    font-family: UbuntuMono;
+    src: url('../fonts/Lora-VariableFont_wght.ttf');
 }
 
 @font-face {
@@ -9,9 +9,9 @@
 }
 
 body {
-    margin: 0;
+    margin: 0 0 2vh 0;
     font-family: Ubuntu;
-    background-color: rgb(18, 18, 18);
+    background-color: rgb(23, 23, 23);
     display: flex;
     flex-direction: column;
 }
@@ -31,7 +31,7 @@ main {
 }
 
 .info-block {
-    margin: 1% 0 4% 0;
+    margin: 1% 0 0 0;
     width: 55%;
     transition: 300ms;
     display: flex;
@@ -57,9 +57,13 @@ main {
     margin: 1% 0 0 0;
 }
 
+.increased-margin-top {
+    margin-top: 5%;
+}
+
 .general-text {
     color: white;
-    font-size: 1.5vh;
+    font-size: 1.75vh;
 }
 
 .text {
@@ -104,12 +108,12 @@ ul {
     justify-content: space-between;
 }
 
-.caption-ribeye {
-    font-family: Ribeye Marrow;
+.caption-font {
+    font-family: UbuntuMono;
 }
 
-.caption-ribeye-bold {
-    font-family: Ribeye Marrow;
+.caption-font-bold {
+    font-family: UbuntuMono;
     font-weight: 700;
 }
 
@@ -152,7 +156,7 @@ ul {
 }
 
 .purple {
-    color: purple;
+    color: fuchsia;
 }
 
 .white {

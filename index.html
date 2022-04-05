@@ -4,11 +4,12 @@
             <link href="style/general.css" rel="stylesheet">
             <link href="style/header.css" rel="stylesheet">
             <link href="style/main.css" rel="stylesheet">
+            <script type="text/javascript" src="scripts/main/blink.js"></script>
         </head>
         <body>
             <header>
                 <div class="header-content">
-                    <div class="header-logo"><a href="index.html" class="white">Iryna Kalkatina</a></div>
+                    <div class="header-logo"><a href="index.html" class="white caption-font">Iryna Kalkatina</a></div>
                     <div class="header-navigation">
                         <a href="index.html" class="header-button header-button-current">Main</a>
                         <a href="about.html" class="header-button">About</a>
@@ -20,32 +21,32 @@
                 <div class="info-block">
                     <div class="flex-row full-width justify-space-between">
                         <div class="flex-column full-width">
-                            <div class="caption-ribeye-bold caption-huge orange text-center main-caption-name">Iryna Kalkatina</div>
-                            <div class="caption-ribeye-bold caption-huge white text-center main-caption-sunject">Portfolio</div>
-                            <div class="caption-ribeye-bold caption-avg avg-margin-top white main-caption-profession">UX/UI Design, Web & Mobile development</div>
+                            <div class="caption-font-bold caption-huge orange text-center main-caption-name">Iryna Kalkatina</div>
+                            <div class="caption-font-bold caption-huge white text-center main-caption-sunject">Portfolio</div>
+                            <div class="caption-font-bold caption-avg avg-margin-top white main-caption-profession">UX/UI Design, Web & Mobile development</div>
                         </div>
                         <img src="res/my_photo.jpg" alt="My photo" class="my-photo"/>
                     </div>
                 </div>
                 <div class="info-block">
                     <div class="flex-column">
-                        <div class="caption-ribeye caption-big main-caption-about-me white">
+                        <div class="caption-font caption-big main-caption-about-me white">
                             O mnie
                         </div>
                         <div class="general-text main-text-about-me">
-                            Dobrze rozumiem, jak funkcjonuje ludzki mózg i jego poszczególne zasoby, takie jak percepcja, uwaga, pamięć, myślenie, język, emocje i motywacje. Posiadam wiedzę z zakresu psychologii, filozofii, logiki, językoznawstwa, współpracy człowiek-komputer oraz neurobiologii. Jestem pewna, że moja dotychczasowa wiedza będzie świetnie się łączyć z pracą w branży UX, pozwalając tworzyć proste i logiczne rozwiązania ułatwiające funkcjonowanie ludzi.
+                            Dobrze rozumiem, <strong class="highlighted-text">jak funkcjonuje ludzki mózg</strong> i jego poszczególne zasoby, takie jak percepcja, uwaga, pamięć, myślenie, język, emocje i motywacje. Posiadam wiedzę z zakresu psychologii, filozofii, logiki, językoznawstwa, współpracy człowiek-komputer oraz neurobiologii. Jestem pewna, że moja <strong class="highlighted-text">dotychczasowa wiedza będzie świetnie się łączyć z pracą w branży UX</strong>, pozwalając tworzyć proste i logiczne rozwiązania ułatwiające funkcjonowanie ludzi.
                         </div>
                         <a href="about.html" class="more-btn"><div>więcej</div><div class="arrow arrow-right"></div></a>
                         <div class="navigation-bar-about-me">
-                            <a class="navigation-bar-left general-text" href="#work">View work</a>
+                            <a class="navigation-bar-left general-text" id="view-work-btn" href="#work">View work</a>
                             <a class="navigation-bar-right general-text" href="contact.html">Get in Contact</a>
                         </div>
                     </div>
                 </div>
-                <div class="info-block">
+                <div class="info-block increased-margin-top">
                     <div class="flex-column full-width">
-                        <div class="caption-ribeye caption-huge orange main-my-offerings-caption">Co oferuje:</div>
-                        <div class="flex-row">
+                        <div class="caption-font caption-huge orange main-my-offerings-caption">Co oferuje:</div>
+                        <div class="flex-row my-offerings-item">
                             <img src="res/offering-1.jpg" class="my-offerings-item-image">
                             <div class="my-offerings-item-text general-text">
                                 <div class="my-offerings-item-text-content">
@@ -58,7 +59,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="flex-row">
+                        <div class="flex-row my-offerings-item">
                             <div class="my-offerings-item-text general-text">
                                 <div class="my-offerings-item-text-content">
                                     <div class="my-offerings-list-caption">IDEACJA</div>
@@ -71,7 +72,7 @@
                             </div>
                             <img src="res/offering-2.jpg" class="my-offerings-item-image">
                         </div>
-                        <div class="flex-row">
+                        <div class="flex-row my-offerings-item">
                             <img src="res/offering-3.jpg" class="my-offerings-item-image">
                             <div class="my-offerings-item-text general-text">
                                 <div class="my-offerings-item-text-content">
@@ -84,7 +85,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="flex-row">
+                        <div class="flex-row my-offerings-item">
                             <div class="my-offerings-item-text general-text">
                                 <div class="my-offerings-item-text-content">
                                     <div class="my-offerings-list-caption">PROJEKTOWANIE</div>
@@ -99,9 +100,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="info-block">
+                <div class="info-block increased-margin-top">
                     <div class="flex-column full-width" id="work">
-                        <div class="caption-ribeye caption-huge orange main-caption-my-projects">
+                        <div class="caption-font caption-huge orange main-caption-my-projects">
                             Moje projekty
                         </div>
                         <div class="my-projects-description general-text">
