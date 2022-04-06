@@ -14,8 +14,8 @@
 
 .my-photo {
     flex-shrink: 0;
-    width: 30%;
-    margin: 3%;
+    width: 25%;
+    margin: 1%;
     object-fit: cover;
     aspect-ratio: 8 / 7;
 }
@@ -93,10 +93,39 @@
     margin-bottom: 4vh;
 }
 
+.my-offerings-item-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.my-offerings-item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: rgb(50, 50, 50);
+    margin: 0 0 2vh 0;
+    border-radius: 20px;
+}
+
+.my-offerings-item-image {
+    height: 22vh;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: 300ms;
+    aspect-ratio: 15 / 9;
+}
+
 .my-offerings-item-text {
     display: flex;
-    width: 60%;
     justify-content: center;
+    width: 100%;
+}
+
+.my-offerings-bigger-text {
+    color: white;
+    font-size: 2.25vh;
 }
 
 .my-offerings-item-text-content {
@@ -108,22 +137,12 @@
 
 .my-offerings-list-caption {
     display: flex;
-    font-size: 1.75vh;
     font-weight: 700;
 }
 
 .my-offerings-list-content {
     padding-left: 5%;
     margin: 0px;
-    font-size: 1.75vh;
-}
-
-.my-offerings-item-image {
-    width: 40%;
-    aspect-ratio: 15 / 9;
-    object-fit: cover;
-    border-radius: 1.5vmax;
-    transition: 300ms;
 }
 
 .my-projects-caption {
@@ -198,12 +217,6 @@
     box-shadow: 0px 5px 3px rgb(255, 90, 0);
 }
 
-.my-offerings-item {
-    background: rgb(50, 50, 50);
-    margin: 0 0 2vh 0;
-    border-radius: 20px;
-}
-
 @media (max-width: 1400px) {
     .info-block {
         width: 75%;
@@ -226,6 +239,20 @@
         height: 196px; 
     }
 
+    .my-offerings-item {
+        width: 48%;
+        flex-direction: column;
+    }
+
+    .my-offerings-item-text-content {
+        width: 80%;
+        padding: 2vh 0 2vh 0;
+    }
+
+    .my-offerings-item-reverse {
+        flex-direction: column-reverse;
+    }
+
     #main-my-projects-list-block {
         flex-direction: column;
     }
@@ -234,10 +261,6 @@
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
-    }
-
-    .my-offerings-list-content {
-        font-size: 1.5vh;
     }
 }
 
@@ -249,6 +272,11 @@
 
     .my-offerings-item {
         /* margin: 1vh 0 4vh 0; */
+    }
+
+    
+    .my-offerings-item {
+        width: 100%;
     }
 
     .my-offerings-item-image {
