@@ -41,21 +41,6 @@
     flex-direction: row;
 }
 
-.arrow {
-    display: flex;
-    border: solid black;
-    margin-left: 0.2vmax;
-    width: 0.7vmax;
-    height: 0.7vmax;
-    border-width: 0 0.2vmax 0.2vmax 0;
-    align-self: center;
-}
-
-.arrow-right {
-    transform:rotate(-45deg);
-}
-
-
 .navigation-bar-about-me {
     display: flex;
     align-self: flex-end;

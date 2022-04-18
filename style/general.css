@@ -29,6 +29,25 @@ main {
     flex-direction: column;
 }
 
+.arrow {
+    display: flex;
+    border: solid black;
+    margin-left: 0.2vmax;
+    width: 0.7vmax;
+    height: 0.7vmax;
+    border-width: 0 0.2vmax 0.2vmax 0;
+    align-self: center;
+}
+
+.arrow-left {
+    transform:rotate(135deg);
+}
+
+.arrow-right {
+    transform:rotate(-45deg);
+}
+
+
 .info-block {
     margin: 1% 0 0 0;
     width: 55%;

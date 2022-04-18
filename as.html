@@ -1,21 +1,75 @@
+<!DOCTYPE html>
 <html>
     <html>
         <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link href="style/general.css" rel="stylesheet">
             <link href="style/header.css" rel="stylesheet">
+            <link href="style/mobile-header.css" rel="stylesheet">
             <link href="style/main.css" rel="stylesheet">
             <link href="style/proj.css" rel="stylesheet">
             <link href="style/extra.css" rel="stylesheet">
             <script type="text/javascript" src="scripts/proj/sizes.js"></script>
+            <script type="text/javascript" src="scripts/header.js"></script>
         </head>
         <body>
-            <header>
+            <header id="desktop">
                 <div class="header-content">
                     <div class="header-logo"><a href="index.html" class="white caption-font">Iryna Kalkatina</a></div>
                     <div class="header-navigation">
-                        <a href="index.html" class="header-button">Main</a>
+                        <a href="index.html" class="header-button">Home</a>
                         <a href="about.html" class="header-button">About</a>
                         <a href="contact.html" class="header-button">Contact</a>
+                    </div>
+                </div>
+            </header>
+            <header id="mobile-closed">
+                <div class="mobile-header-left">
+                    <div class="mobile-header-open-button-block">
+                        <a class="mobile-header-open-button" id="mobile-header-open-button">
+                            <div class="mobile-header-open-button-line"> </div>
+                            <div class="mobile-header-open-button-line"> </div>
+                            <div class="mobile-header-open-button-line"> </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="mobile-header-center">
+                    <div class="header-logo"><div class="white caption-font">Iryna Kalkatina</div></div>
+                </div>
+                <div class="mobile-header-right">
+                </div>
+            </header>
+            <header class="flex-column full-width" id="mobile-opened" style="display: none;">
+                <div class="mobile-header-block">
+                    <div class="mobile-header-left">
+                        <div class="mobile-header-close-button-block">
+                            <a class="mobile-header-close-button" id="mobile-header-close-button">
+                                <div class="arrow arrow-left header-arrow-back"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mobile-header-center">
+                        <a class="mobile-header-opened-link white" href="index.html">Home</a>
+                    </div>
+                    <div class="mobile-header-right">
+                    </div>
+                </div>
+                <div class="mobile-header-block">
+                    <div class="mobile-header-left">
+                    </div>
+                    <div class="mobile-header-center">
+                        <a class="mobile-header-opened-link white" href="about.html">About</a>
+                    </div>
+                    <div class="mobile-header-right">
+                    </div>
+                </div>
+                <div class="mobile-header-block">
+                    <div class="mobile-header-left">
+                    </div>
+                    <div class="mobile-header-center">
+                        <a class="mobile-header-opened-link white" href="contact.html">Contact</a>
+                    </div>
+                    <div class="mobile-header-right">
                     </div>
                 </div>
             </header>
