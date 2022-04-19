@@ -2,7 +2,7 @@
     margin-top: 2.5vh;
 }
 
-.main-caption-sunject {
+.main-caption-subject {
 
 }
 
@@ -210,13 +210,13 @@
 
 @media (max-width: 1130px) {
     .info-block {
-        width: 90%;
+        width: 80%;
     }
 }
 
 @media (max-width: 930px) {
     .info-block {
-        width: 95%;
+        width: 85%;
     }
 
     .my-photo {
@@ -250,16 +250,6 @@
 }
 
 @media (max-width: 700px) {
-    .my-photo {
-        width: 180px;
-        height: 157px; 
-    }
-
-    .my-offerings-item {
-        /* margin: 1vh 0 4vh 0; */
-    }
-
-    
     .my-offerings-item {
         width: 100%;
     }
@@ -270,5 +260,36 @@
 
     .my-offerings-item-text-content {
         width: 90%;
+    }
+
+    #main-caption-block {
+        flex-direction: column-reverse;
+    }
+
+    .my-photo {
+        width: 100%;
+        height: auto;
+        margin: 2vh 0px 0px 0px;
+        aspect-ratio: 3 / 2;
+        border-radius: 20px 20px 0 0;
+        object-fit: cover;
+        object-position: 50% 15%;
+    }
+
+    .main-caption-text-block {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .main-caption-name {
+        width: 100%;
+    }
+
+    .main-caption-subject {
+        width: 100%;
+    }
+
+    .main-caption-profession {
+        width: 100%;
     }
 }

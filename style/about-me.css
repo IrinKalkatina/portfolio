@@ -47,8 +47,18 @@
     margin: 5% 5% 10% 5%;
 }
 
+.about-caption-block {
+    flex-direction: column-reverse;
+}
+
 @media (max-width: 1400px) {
     .icon-table-item {
         aspect-ratio: 13 / 20;
+    }
+}
+
+@media (max-width: 700px) {
+    #about-caption-block {
+        flex-direction: column-reverse;
     }
 }
