@@ -51,7 +51,7 @@
     background-color: rgb(26, 26, 26);
     margin: 0.5%;
     width: calc(100%/4 - 2*0.5%);
-    aspect-ratio: 13 / 20;
+    aspect-ratio: 13 / 22;
 }
 
 .icon-table-image {
@@ -95,11 +95,12 @@
 @media (max-width: 750px) {
     .icon-table-item {
         border-radius: 10px;
+        aspect-ratio: 13 / 22;
+    }
+    .about-project-item {
+        width: 100%;
     }
 }
 
 @media (max-width: 660px) {
-    .about-project-item {
-        width: 100%;
-    }
 }
