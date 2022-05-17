@@ -12,6 +12,7 @@ body {
     margin: 0 0 2vh 0;
     font-family: Ubuntu;
     line-height: 1.5;
+    font-size: 1.75vh;
     background-color: rgb(23, 23, 23);
     display: flex;
     flex-direction: column;
